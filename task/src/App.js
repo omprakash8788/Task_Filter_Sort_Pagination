@@ -3,7 +3,6 @@ import FilterAndSort from './component/FilterandSort';
 import ProductList from './component/ProductList';
 import Pagination from './component/Pagination';
 import styled from 'styled-components';
-import Navbar from './component/Navbar';
 
 
 const Container = styled.div`
@@ -70,8 +69,6 @@ const App = () => {
 
   return (
     <Container>
-      <Navbar/>
-      <h1>Product List</h1>
       <FilterAndSort
         handleFilterChange={handleFilterChange}
         handleSortChange={handleSortChange}
