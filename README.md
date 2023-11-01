@@ -15,7 +15,6 @@ npm start
 ## Folder Structure 
  -components
    - FilterandSort.jsx
-   - Navbar.jsx
    - Pagination.jsx
    - ProductCard.jsx
    - ProductList.jsx
